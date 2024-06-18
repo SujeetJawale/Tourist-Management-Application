@@ -10,4 +10,10 @@ public interface ITouristManagement {
 	public List<Tourist> fetchAllTourist();
 
 	public Tourist fetchTouristById(Integer id);
+
+	public String updateTouristInfo(Tourist tourist);
+
+	public String updateTouristInfoById(Integer id, Double budget);
+
+	public String deleteTouristById(Integer id);
 }
